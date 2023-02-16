@@ -1,0 +1,53 @@
+html{
+    background-color:lightgrey;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+body{
+    margin: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    background-color: lavender;
+}
+
+.app{
+    padding: auto;
+    height: inherit;
+    background-color:lightgrey;
+}
+
+.todo-list{
+    border-radius: 4px;
+    padding: 5px;
+    max-width: none;
+}
+
+.todo{
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+    padding: 3px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color:lightsteelblue;
+}
+
+.todo:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+.input{
+    border: 0;
+    border-radius: 4px;
+    padding: auto;
+}
